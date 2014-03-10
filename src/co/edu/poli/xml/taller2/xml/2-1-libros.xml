@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <linkCabecera>
+        <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
+        <item link="index.html">Curriculum (Principal)</item>
+        <item link="2-publicaciones.html">Publicaciones</item>
+    </linkCabecera>
+    <menu>
+        <item>Libros</item>
+        <item link="2-2-articulos.html">Artículos en Periódicos</item>
+        <item link="2-3-congresos.html">Artículos en Congresos</item>
+    </menu>
+    <grupo>
+        <titulo>Capítulos de libro de investigación (publicado o aceptado)</titulo>
+        <referencias>
+            <referencia>
+                Miguel ángel Sicilia, Elena García Barriocanal, and José A. Gutiérrez; (2005). Advances in Fuzzy Object-Oriented Databases: Chapter VIII Introducing Fuzziness in Existing Orthogonal Persistence Interfaces and Systems <hiperLink link="http://www.idea-group.com/books/details.asp?id=4490">Idea Group</hiperLink>, ISBN: 1-59140-385-5(hard cover), 1-59140-384-7 (soft cover) 
+            </referencia>
+            <referencia>
+                Martínez, J.M., L., Barchino Plata, R. & Gutiérrez de Mesa, J.A.; (2003). Mobile Devices as Internet Interface: Adaptability for General Purpouse Navigation. <hiperLink link="http://www.springer.com/sgw/cda/frontpage/0,11855,5-40109-22-16790144-0,00.html">Lecture Notes in Computer Science -LNCS 2889- </hiperLink>, ISBN: 3-540-20494-6 
+            </referencia>
+        </referencias>
+    </grupo>
+    <grupo>
+        <titulo>Libros de enseñanza y monografías</titulo>
+        <referencias>
+            <referencia>
+                Planificación y gestión de proyectos informáticos. Gutiérrez de Mesa, J. A. & Pagés Arévalo, C.; Servicio de publicaciones UAH, 1-444. ISBN: 84-8139-631-6, 2005. (in Spanish)
+            </referencia>
+            <referencia>
+                Sistemas Informáticos. Gutiérrez de Mesa, J. A., Hilera González, J.R. & Rodríguez Valle, Y.; Servicio de publicaciones UAH, ISBN: 84-8139-611-1, 2004. (in Spanish)
+            </referencia>
+        </referencias>
+    </grupo>
+</libros>

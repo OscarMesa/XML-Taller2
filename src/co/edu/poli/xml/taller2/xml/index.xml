@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+    <nombreInstitucion link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</nombreInstitucion>
+    <curriculum>
+        <infoPersona>
+            <nombreApellidos>Carlos Mario Arango</nombreApellidos>
+            <correoElectronico>carlos.arango@elpoli.edu.co</correoElectronico>
+            <intitucion>Institucion Juan del Potro</intitucion>
+            <dirFotoPerfil>imagenes/foto1.gif</dirFotoPerfil>
+        </infoPersona>
+    </curriculum>
+    <menu>
+        <item link="1-vitae.html">Vitae</item>
+        <item link="2-publicaciones.html">Publicaciones</item>
+        <item link="3-investigacion.html">Docencia</item>
+        <item link="4-docencia.html">Investigación</item>
+    </menu>
+    <noticias titulo="Últimas Noticias">
+        <noticia>
+            <descripcion>Grupo de Investigación en Tecnologías de la Información y del Conocimiento. TIFYC.</descripcion>
+            <linkDetalle>http://www.cc.uah.es/tifyc</linkDetalle>
+            <imagen>imagenes/logo_tifyc.jpg</imagen>
+        </noticia>
+        <noticia>
+            <descripcion>Concurso de juegos con dispositivos móviles</descripcion>
+            <linkDetalle>http://www.mobigame.uah.es/</linkDetalle>
+            <imagen>imagenes/mobigame.gif</imagen>
+        </noticia>
+    </noticias>
+    <referencias titulo="Referencias">
+        <referencia>
+            <tituloRef>Infononews(2013).</tituloRef>
+            <hiperLink link="http://www.infonos.com/faq/8.4.html">De tú a tú con el Profesor</hiperLink>
+        </referencia>
+        <referencia>
+            <tituloRef>Puerta de Alcalá(2013).</tituloRef>
+            <hiperLink link="http://www.cc.uah.es/jagm/Puerta.jpg">Entrevista</hiperLink>
+        </referencia>
+    </referencias>
+</index>

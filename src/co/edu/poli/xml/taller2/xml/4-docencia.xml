@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docencia>
+    <linkCabecera>
+        <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
+        <item link="index.html">Curriculum (Principal)</item>
+    </linkCabecera>   
+    <menu>
+        <item link="#tutorias">Tutorías</item>
+        <item link="#TFC">Trabajos fin de carrera</item>
+        <item link="#SSII">Sistemas Informáticos para Documentalistas</item>
+        <item link="#ipo">Lenguajes de marcado</item>
+    </menu>    
+</docencia>

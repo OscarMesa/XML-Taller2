@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vitae>
+    <linkCabecera>
+        <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
+        <item link="index.html">Curriculum (Principal)</item>
+    </linkCabecera>
+    <menu>
+        <item link="2-1-libros.html">Libros</item>
+        <item link="2-2-articulos.html">Artículos en Periódicos</item>
+        <item link="2-3-congresos.html">Artículos en Congresos</item>
+    </menu>
+</vitae>

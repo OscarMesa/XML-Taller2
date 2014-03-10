@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articulos>
+    <linkCabecera>
+        <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
+        <item link="index.html">Curriculum (Principal)</item>
+        <item link="2-publicaciones.html">Publicaciones</item>
+    </linkCabecera>
+    <menu>
+        <item link="2-1-libros.html">Libros</item>
+        <item link="2-2-articulos.html">Artículos en Periódicos</item>
+        <item>Artículos en Congresos</item>
+    </menu>
+    <grupoArt titulo="Artículos en Periódicos ">
+        <items año="2007">
+            <item>Luis de Marcos, Carmen Pagés, José Javier Martínez, J.A. Gutiérrez de Mesa, Juan M. de Blas and José Mª. Gutiérrez: (2007). <hiperLink link="http://www.cc.uah.es/jagm/docs/2007/INTED2007.pdf">Reflections on e-learning Lyfecycle and Learning Objects <hiperLink> <hiperLink link="http://www.webist.org/" >Lifecycle INTED 2007 (International Technology, Education and Development Conference) Abstract Book (WEBIST 2007)</hiperLink> International Association of Technology, Education and Development (IATED), Valencia (Spain), March 7-9, 2007. ISBN: 978-84-611-4516-4 (CD ISBN: 978-84-611-4517-1). pp. 423-430.</item>
+            <item>Luis de Marcos, Carmen Pagés, José Javier Martínez, J.A. Gutiérrez de Mesa, Juan M. de Blas and José Mª. Gutiérrez: (2007). <hiperLink link="http://www.cc.uah.es/jagm/docs/2007/WEBIST2007.pdf"> Digital Rights and e-payment in e-learning</hiperLink> 
+                <hiperLink link="http://www.webist.org/">Proceedings of the Third International Conference on Web Information Systems and Technologies (WEBIST 2007)</hiperLink> Insticc Press, Barcelona (Spain), March 3-6, 2007. ISBN: 978-972-8865-79-5. pp. 540-544. </item>
+        </items>
+        <items año="2006">
+            <item>Ortiz, A., de Blas, J.M., Otón, S., Barchino, R., Gutierrez, J.A..: (2006). <hiperLink link="http://www.cc.uah.es/jagm/docs/2006/IADIS2006.mdi">Interoperabilidad de Servicios Web entre Plataformas</hiperLink> Conferencia Ibero-Americana <hiperLink link="http://www.iadis.org/icwi2006/index.asp">WWW/Internet 2006</hiperLink> Libro Conferencia Ibero-Americana WWW/Internet 2006, Murcia, España. ISBN: 972-8924-20-8. </item>
+            <item>Barchino, R., Gutierrez, J.M., Otón, S., Martínez, J.J., Hilera, J.R., Gutierrez de Mesa, J.A.: (2006). <hiperLink link="http://www.cc.uah.es/jagm/docs/2006/S025_EL.pdf">E-Learning Model for Assessment</hiperLink> Virtual Multi Conference on Computer Science and Information Systems 2006. <hiperLink link="http://www.iadis.org/multi2006/">MCCSIS 2006.</hiperLink> CD-ROM - ISBN 972-8924-13-5. </item>
+        </items>
+    </grupoArt>
+</articulos>

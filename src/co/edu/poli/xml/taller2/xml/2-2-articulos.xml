@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articulos>
+    <linkCabecera>
+        <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
+        <item link="index.html">Curriculum (Principal)</item>
+        <item link="2-publicaciones.html">Publicaciones</item>
+    </linkCabecera>    
+    <menu>
+        <item link="2-1-libros.html">Libros</item>
+        <item>Artículos en Periódicos</item>
+        <item link="2-3-congresos.html">Artículos en Congresos</item>
+    </menu>
+    <grupoArt titulo="Artículos en Periódicos ">
+        <items año="2007">
+            <item>Armas Andrade, R., Chamorro López, A., Montes Boobide, M. and Gutiérrez de Mesa, J.A.; (2007). <hiperLink ubicacion="http://www.cc.uah.es/jagm/docs/2007/RPM_v4_01.pdf">Desde ISO 9001 hacia CMMI, pasos para la mejora de los procesos y métricas. </hiperLink>RPM-AEMES Vol 4, núm 1. Enero 2007 : 18-25. ISSN: 1698-2029.</item>
+            <item>Páginas. C., De Marcos, L., Martínez. J.J., Gutiérrez. J.A.; (2007). <hiperLink ubicacion="http://www.cc.uah.es/jagm/docs/2007/RPM_v4_03.pdf">Definición de Metricas de Calidad en el Proceso de Parametrización de Sistemas ERP</hiperLink>. RPM-AEMES Vol 4, núm 3. Septiembre 2007 : 74-81. ISSN: 1698-2029.</item>
+        </items>
+        <items año="2006">
+            <item>Marcos, L., Hilera, J.R., Gutiérrez, J.A., Pagés,C. and Martínez, J.J.;(2006). <hiperLink ubicacion="http://193.146.58.131/riicu/numeros/1/23-cicuDeMarcos.pdf">Implementación de un Repositorio de Objetos Docentes para Dispositivos Móviles.</hiperLink> Revista Internacional Iberoamericana de Computación Ubícua. Riicu. Issue 1.- Dispositivos Móviles en la Ubicuidad : 8 pages. ISSN: 1988-0022 . </item>
+            <item>Gómez Pedraz, S., Rodrigo Yánes, J.A. and Gutiérrez de Mesa, J.A.; (2006). <hiperLink ubicacion="http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS//Vol-208/paper03.pdf"> Problems Security by Data Transmisión in Ubiquotous Systems Based in Rijndael´s Algorithm to WiFi Routers.</hiperLink> Proceedings of the First International Congress on Ubiquitous Computing. CEUR-ws(208). : 10 pages. ISSN: 1316-00. </item>
+        </items>
+    </grupoArt>
+</articulos>
