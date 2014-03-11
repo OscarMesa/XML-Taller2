@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/1-vitae.xsl" type="text/xsl"?>
 <vitae>
+    <tituloPage>vitae</tituloPage>
     <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
-        <item link="index.html">Curriculum (Principal)</item>
+        <item link="index.xml">Curriculum (Principal)</item>
     </linkCabecera>
     <menu>
-        <item link="2-1-libros.html">Libros</item>
-        <item link="2-2-articulos.html">Artículos en Periódicos</item>
-        <item link="2-3-congresos.html">Artículos en Congresos</item>
+        <item link="cvsimplificado.pdf">Versión en inglés</item>
+        <item link="cvresumido.pdf">Resumido</item>
+        <item link="cvCICYT.pdf">Modelo Cicyt</item>
     </menu>
 </vitae>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/4-docencia.xsl" type="text/xsl"?>
 <docencia>
+    <tituloPage>docencia</tituloPage>
     <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
         <item link="index.html">Curriculum (Principal)</item>
