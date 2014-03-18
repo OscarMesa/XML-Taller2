@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vitae SYSTEM "../dtd/1-vitae.dtd">
 <?xml-stylesheet href="../xsl/1-vitae.xsl" type="text/xsl"?>
 <vitae>
     <tituloPage>vitae</tituloPage>
