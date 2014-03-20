@@ -1,13 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/4-docencia.xsl" type="text/xsl"?>
 <docencia>
+    <tituloPage>docencia</tituloPage>
     <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
-        <item link="index.html">Curriculum (Principal)</item>
+        <item link="index.xml">Curriculum (Principal)</item>
     </linkCabecera>   
     <menu>
         <item link="#tutorias">Tutorías</item>
         <item link="#TFC">Trabajos fin de carrera</item>
         <item link="#SSII">Sistemas Informáticos para Documentalistas</item>
         <item link="#ipo">Lenguajes de marcado</item>
-    </menu>    
+    </menu>  
+    <cuerpoPagina>
+        <tutorias titulo="Tutorias">
+            <nobreEscuela>Escuela Técnica Superior de Ingeniería Informática.</nobreEscuela>
+            <oficina>Despacho 317N.</oficina>
+            <fecha>Lunes, 08.30-14.00 </fecha>
+        </tutorias>
+        <trabajo titulo="Trabajos fin de carrera">
+            <item year="2006">Tecnología BPMS. Durán Peña,Almudena</item>
+            <item year="2006">Comercio electrónico integrado con ERP. Baeza Oeo, Ángel</item>
+            <item year="2006">Presentación de datos XML en dispositivos móviles mediante ASP.NET. González García, Gema</item>
+            <item year="2005">Adaptación de la tarjeta A/D de adquisición de datos de un motor de inyección. Vázquez Blázquez, Juan Manuel</item>
+            <item year="2005">Unidad de control para un motor gasolina inyección de dos tiempos. Llamazares Llamazares, Raúl</item>
+            <item year="2005">Curso de administración Oracle para plataforma de enseñanza Luvit. López Pizarro, Marta</item>
+        </trabajo>
+        <proyectos>
+            <proyecto titulo="Sistemas Informáticos para documentalistas" idhref="SSII">
+                <tituloCarrera>licenciatura en Documentación </tituloCarrera>
+                <presentacion encabezado="Presentación Asignatura" ubicacion="ftp://www.cc.uah.es/pub/Alumnos/DOCUMEN/Sistemas_Informaticos/Sistemas_Informaticos._Programa.doc"/>
+                <objetivos encabezado="Objetivos">
+                    <objetivo>Facilitar al alumno formación sobre las nuevas tecnologías de la información para poder iniciarse en los procesos documentales utilizando la potencia de los ordenadores y sus aplicaciones.</objetivo>
+                </objetivos>
+                <temario encabezado="Temario">
+                    <item>
+                        <descripcion>Tecnología informática. Estructura y funcionamiento de los sistemas informáticos.</descripcion>
+                        <linkGuia>http://www.cc.uah.es/jagm/docencia/Cap1SSII.pdf</linkGuia>
+                        <linkEjercicios>http://www.cc.uah.es/jagm/docencia/Cap1SSII.pdf</linkEjercicios>
+                    </item>
+                    <item>
+                        <descripcion>Almacenamiento de la información en un sistema informático.</descripcion>
+                        <linkGuia>http://www.cc.uah.es/jagm/docencia/Cap2SSII.pdf</linkGuia>
+                        <linkEjercicios>http://www.cc.uah.es/jagm/docencia/Cap2SSII.pdf</linkEjercicios>
+                    </item>
+                    <item>
+                        <descripcion>Comunicaciones y redes de computadores. </descripcion>
+                        <linkGuia>http://www.cc.uah.es/jagm/docencia/Cap3SSII.pdf</linkGuia>
+                        <linkEjercicios>http://www.cc.uah.es/jagm/docencia/Cap3SSII.pdf</linkEjercicios>
+                    </item>
+                    <item>
+                        <descripcion>Gestión de documentos textuales y gráficos.</descripcion>
+                        <linkGuia>http://www.cc.uah.es/jagm/docencia/Cap4SSII.pdf</linkGuia>
+                        <linkEjercicios>http://www.cc.uah.es/jagm/docencia/Cap4SSII.pdf</linkEjercicios>
+                    </item>
+                    <item>
+                        <descripcion>Gestión de documentos sonoros.</descripcion>
+                        <linkGuia>http://www.cc.uah.es/jagm/docencia/Cap5SSII.pdf</linkGuia>
+                        <linkEjercicios>http://www.cc.uah.es/jagm/docencia/Cap5SSII.pdf</linkEjercicios>
+                    </item>
+                    <item>
+                        <descripcion>Ergonomía. Diseño de la interfaz de usuario.</descripcion>
+                        <linkGuia>http://www.cc.uah.es/jagm/docencia/Cap6SSII.pdf</linkGuia>
+                        <linkEjercicios>http://www.cc.uah.es/jagm/docencia/Cap6SSII.pdf</linkEjercicios>
+                    </item>
+                    <item>
+                        <descripcion>Calidad</descripcion>
+                        <linkGuia>http://www.cc.uah.es/jagm/docencia/Cap7SSII.pdf</linkGuia>
+                        <linkEjercicios>http://www.cc.uah.es/jagm/docencia/Cap7SSII.pdf</linkEjercicios>
+                    </item>
+                </temario>
+                <bibliografia>
+                    <item>Gutiérrez, Hilera y Rodríguez: Sistemas Informáticos. Ed. Universidad de Alcalá, 2004.</item>
+                    <item>Pedro de Miguel Anasagasti.: Fundamentos de los Computadores. Ed. Paraninfo, 2000. (ojo a la edición)</item>
+                    <item>ISO 9001- Quality Systems Model for quality assurance in design, development, production, installation and servicing, ISO, 1994.</item>
+                    <item>Sánchez, J. y Martínez. P.: Gestión y Explotación de Centros de Proceso de Datos. Jesús Sánchez y Pilar Martínez. Servicio de Publicaciones de la EUI de la UPM, 1996.</item>
+                </bibliografia>                
+                <referencia>
+                    La docencia de esta asignatura se puede seguir a través del <link url="http://193.146.58.146/desarrollo">aula virtual</link>.
+                </referencia>
+                <evaluacion encabezado="Método de Evaluación ">
+                     Valoración de los trabajos realizados en clase y examen final tipo test para comprobar el nivel alcanzado por los alumnos. 
+                </evaluacion>
+            </proyecto>
+            <proyecto titulo="Bases de Datos Avanzadas">
+                <tituloCarrera>licenciatura en Documentación </tituloCarrera>
+                <presentacion encabezado="Presentación Asignatura" ubicacion="ftp://www.cc.uah.es/pub/Alumnos/DOCUMEN/Sistemas_Informaticos/Sistemas_Informaticos._Programa.doc"/>
+                <objetivos encabezado="Objetivos">
+                    <objetivo> El objetivo general de esta asignatura es dar a los alumnos una perspectiva amplia sobre las bases de datos, las distintas arquitecturas y modelos, incluyendo modelos experimentales, así como las posibles utilizaciones de las mismas en todo tipo de entorno.</objetivo>
+                </objetivos>
+                <temario encabezado="Temario">
+                    <item>
+                        <descripcion>INTRODUCCIÓN A LA ARQUITECTURA DE BBDD.</descripcion>
+                    </item>
+                    <item>
+                        <descripcion>BASES DE DATOS ACTIVAS.</descripcion>
+                    </item>
+                    <item>
+                        <descripcion>BASES DE DATOS TEMPORALES.</descripcion>
+                    </item>
+                    <item>
+                        <descripcion>BASES DE DATOS ESPACIALES. </descripcion>
+                    </item>
+                    <item>
+                        <descripcion>BASES DE DATOS MULTIMEDIA.</descripcion>
+                    </item>
+                    <item>
+                        <descripcion>BASES DE DATOS DISTRIBUÍDAS.</descripcion>
+                    </item>
+                    <item>
+                        <descripcion>BASES DE DATOS ORIENTADAS A OBJETOS.</descripcion>
+                    </item>
+                    <item>
+                        <descripcion>BASES DE DATOS PARA ENTORNOS MÓVILES POCO COHESIONADOS.</descripcion>
+                    </item>
+                    <item>
+                        <descripcion>BASES DE DATOS FUZZY.</descripcion>
+                    </item>
+                </temario>
+                <bibliografia>
+                    <item>SILBERSCHATZ, KORTH Y SUDARSHAN; Fundamentos de bases de datos.(4ª Ed.) McGrawHill. 2002.</item>
+                    <item>ELMASRI, NAVATHE; Fundamentos de sistemas de bases de datos (3ª Ed.) Addison-Wesley. 2002.</item>
+                    <item>Manuales técnicos actualizados de ORACLE, PostgreSQL y SQL Server.</item>
+                </bibliografia>
+                <referencia>
+                    La docencia de esta asignatura se puede seguir a través del <link url="http://aulavirtual.uah.es/webct/public/home.pl?action=setup_frames&amp;curr=amptop">aula virtual</link>.
+                </referencia>
+                <evaluacion encabezado="Método de Evaluación ">
+                      Valoración de los trabajos realizados en clase que puede liberar de examen final. Examen final para los que no hayan superado la asignatura por curso consistente en desarrollo de temas propuestos para comprobar el nivel alcanzado por los alumnos. 
+                </evaluacion>
+            </proyecto>
+        </proyectos>
+        <especialesdades>
+            <especialidad titulo="Lenguajes de marcado" idhref="ipo">
+                <tipo>Doctorado</tipo>
+                <referencia>
+                    La docencia de esta asignatura se puede seguir a través del <link url="http://aulavirtual.uah.es/webct/public/home.pl?action=setup_frames&amp;curr=amptop">aula virtual</link>.
+                </referencia>
+            </especialidad> 
+        </especialesdades>
+    </cuerpoPagina>  
 </docencia>

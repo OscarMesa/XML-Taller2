@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/3-investigacion.xsl" type="text/xsl"?>
 <investigaciones>
+    <tituloPage>Investigación</tituloPage>
     <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
-        <item link="index.html">Curriculum (Principal)</item>
+        <item link="index.xml">Curriculum (Principal)</item>
     </linkCabecera>
     <grupoInvesetigacion>
         <grupo titulo="Investigaciones financiadas por convocatorias">

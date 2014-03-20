@@ -1,0 +1,7 @@
+<!ELEMENT vitae (tituloPage?, linkCabecera?, menu?)>
+<!ELEMENT tituloPage (#PCDATA)>
+<!ELEMENT linkCabecera (item+)>
+<!ELEMENT menu (item*)>
+<!ELEMENT item (#PCDATA)>
+
+<!ATTLIST item link CDATA #REQUIRED >

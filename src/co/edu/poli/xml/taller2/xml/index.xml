@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xsl/index.xsl" type="text/xsl"?>
 <index>
-    <nombreInstitucion link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</nombreInstitucion>
+    <linkCabecera>
+        <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
+    </linkCabecera>
     <curriculum>
         <infoPersona>
+            <FotoPerfil>foto1.gif</FotoPerfil>
             <nombreApellidos>Carlos Mario Arango</nombreApellidos>
             <correoElectronico>carlos.arango@elpoli.edu.co</correoElectronico>
-            <intitucion>Institucion Juan del Potro</intitucion>
-            <dirFotoPerfil>imagenes/foto1.gif</dirFotoPerfil>
+            <intitucion link="www.juandelpotro.com">Institucion Juan del Potro</intitucion>
+            <direccion>calle 1234</direccion>
         </infoPersona>
     </curriculum>
     <menu>
-        <item link="1-vitae.html">Vitae</item>
-        <item link="2-publicaciones.html">Publicaciones</item>
-        <item link="3-investigacion.html">Docencia</item>
-        <item link="4-docencia.html">Investigación</item>
+        <item link="1-vitae.xml">Vitae</item>
+        <item link="2-publicaciones.xml">Publicaciones</item>
+        <item link="3-investigacion.xml">Investigación</item>
+        <item link="4-docencia.xml">Docencia</item>
     </menu>
     <noticias titulo="Últimas Noticias">
         <noticia>
             <descripcion>Grupo de Investigación en Tecnologías de la Información y del Conocimiento. TIFYC.</descripcion>
             <linkDetalle>http://www.cc.uah.es/tifyc</linkDetalle>
-            <imagen>imagenes/logo_tifyc.jpg</imagen>
+            <imagen>logo_tifyc.jpg</imagen>
         </noticia>
         <noticia>
             <descripcion>Concurso de juegos con dispositivos móviles</descripcion>
             <linkDetalle>http://www.mobigame.uah.es/</linkDetalle>
-            <imagen>imagenes/mobigame.gif</imagen>
+            <imagen>mobigame.gif</imagen>
         </noticia>
     </noticias>
     <referencias titulo="Referencias">
