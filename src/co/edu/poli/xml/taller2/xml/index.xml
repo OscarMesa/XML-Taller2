@@ -14,7 +14,7 @@
             <direccion>calle 1234</direccion>
         </infoPersona>
     </curriculum>
-  <!--  <menu>
+    <menu>
         <item link="1-vitae.xml">Vitae</item>
         <item link="2-publicaciones.xml">Publicaciones</item>
         <item link="3-investigacion.xml">Investigación</item>
@@ -41,5 +41,5 @@
             <tituloRef>Puerta de Alcalá(2013).</tituloRef>
             <hiperLink link="http://www.cc.uah.es/jagm/Puerta.jpg">Entrevista</hiperLink>
         </referencia>
-    </referencias>-->
+    </referencias>
 </index>
