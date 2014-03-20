@@ -3,38 +3,88 @@
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
  
-    <xs:include schemaLocation="TipoDatos.xsd"/>
-    <xs:element name="hojaPedido">
+    <xs:element name="index">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="enviarA">
-                    <xs:complexType>
-                        <xs:group ref="TipoPersona"/>
-                        <xs:attribute name="pais" type="TipoPais" use="required"/>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name="facturarA">
-                    <xs:complexType>
-                        <xs:group ref="TipoPersona"/>
-                        <xs:attribute name="pais" type="TipoPais" use="required"/>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name="comentario" type="xs:string"/>
-                <xs:element name="elementos">
+                <xs:element name="linkCabecera">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="elemento" maxOccurs="unbounded">
-                                <xs:complexType>
-                                        <xs:group ref="TipoElemento"/>
-                                    <xs:attribute name="numProducto" type="TipoNumProducto"/>
+                            <xs:element name="item" maxOccurs="unbounded">
+                                <xs:complexType mixed="true">
+                                    <xs:attribute name="link" type="xs:string" use="required"/>
                                 </xs:complexType>
                             </xs:element>
-                        </xs:sequence>                                                                            
-                    </xs:complexType>                    
+                        </xs:sequence>
+                    </xs:complexType>
                 </xs:element>
-            </xs:sequence>
-            <xs:attribute name="fechaPedido" type="xs:date" use="required"/>
-        </xs:complexType> 
-                           
+                <xs:element name="curriculum">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="infoPersona">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="FotoPerfil" type="xs:string"/>
+                                        <xs:element name="nombreApellidos" type="xs:string"/>
+                                        <xs:element name="correoElectronico" type="xs:string"/>
+                                        <xs:element name="intitucion">                                            
+                                            <xs:complexType mixed="true">
+                                                <xs:attribute name="link" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="direccion" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element> 
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="menu">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="item" maxOccurs="unbounded">
+                                <xs:complexType mixed="true">
+                                    <xs:attribute name="link" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="noticias">
+                    <xs:complexType mixed="true">
+                        <xs:sequence>
+                            <xs:element name="noticia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="descripcion" type="xs:string" />
+                                        <xs:element name="linkDetalle" type="xs:string" />
+                                        <xs:element name="imagen" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="titulo" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="referencias">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="referencia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tituloRef" type="xs:string" />
+                                        <xs:element name="hiperLink">
+                                            <xs:complexType mixed="true">
+                                                <xs:attribute name="link" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="titulo" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>                
+            </xs:sequence>            
+        </xs:complexType>                            
     </xs:element>    
 </xs:schema>

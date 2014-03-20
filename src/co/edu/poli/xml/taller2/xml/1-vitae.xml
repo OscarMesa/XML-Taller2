@@ -5,7 +5,7 @@
     <tituloPage>vitae</tituloPage>
     <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
-        <item link="index.xml">Curriculum (Principal)</item>
+        <item link="">Curriculum (Principal)</item>
     </linkCabecera>
     <menu>
         <item link="cvsimplificado.pdf">Versión en inglés</item>
