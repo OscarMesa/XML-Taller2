@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../xsl/3-investigacion.xsl" type="text/xsl"?>
-<investigaciones>
+
+<investigaciones xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+       xs:noNamespaceSchemaLocation="../xsd/3-investigacion.xsd">
     <tituloPage>Investigación</tituloPage>
     <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
@@ -12,10 +14,7 @@
                 (2007) DNI: Promover la utilización del nuevo DNI electrónico haciendo uso del mismo junto con un dispositivo electrónico de tamaño discreto que integre las tecnologías inalámbricas más modernas del sector de las telecomunicaciones(FIT-350101-2007-9).
                 Entidad financiadora: Ministerio de Industria, Turismo y Comercio. Entidades participantes: Abysal Systems, S.A., Idea Informática, S.A. y Grupo de Investigación TIFYC de la Universidad de Alcalá. Duración, desde: 1 de abril de 2007 hasta: 31 de diciembre de 2007. Cuantía de la subvención: 295.958 €. Investigador responsable: Dr. José Antonio Gutiérrez de Mesa. Número de investigadores participantes: 10 
             </item>
-            <item>
-                (2007) Mejora de la evaluación de conocimientos de los alumnos de centros universitarios y no universitarios mediante métodos telemáticos.
-                Entidad financiadora: Consejería de Educación de la Comunidad Autónoma de Castilla La Mancha. Entidades participantes: Grupo de Investigación TIFYC de la Universidad de Alcalá y CC Santa Ana de Guadalajara. Duración, desde: 1 de junio de 2007 hasta: 31 de diciembre de 2007. Cuantía de la subvención: 11.000 €. Investigador responsable: Dr. José Ramón Hilera González. Número de investigadores participantes: 8 
-            </item>
+          
         </grupo>
         <grupo titulo="Investigaciones financiadas por compañías sin convocatorias oficiales">
             <item>
