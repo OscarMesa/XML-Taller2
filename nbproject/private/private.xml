@@ -7,6 +7,9 @@
             <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xml/index.xml</file>
             <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xml/1-vitae.xml</file>
         </group>
-        <group name="ISE"/>
+        <group name="ISE">
+            <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xml/2-1-libros.xml</file>
+            <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xsd/index.xsd</file>
+        </group>
     </open-files>
 </project-private>
