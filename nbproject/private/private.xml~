@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+<<<<<<< HEAD
+=======
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xml/4-docencia.xml</file>
             <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xml/index.xml</file>
             <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xml/1-vitae.xml</file>
         </group>
-        <group name="ISE">
-            <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xml/2-1-libros.xml</file>
-            <file>file:/C:/xampp/htdocs/XML-Taller2/src/co/edu/poli/xml/taller2/xsd/index.xsd</file>
-        </group>
+        <group name="ISE"/>
     </open-files>
+>>>>>>> b51548d94ae2d3e6cd52c91b4296aca5f16b09c4
 </project-private>
