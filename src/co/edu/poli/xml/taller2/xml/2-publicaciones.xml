@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../xsl/2-publicaciones.xsl" type="text/xsl"?>
-<publicaciones>
+<publicaciones xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+               xs:noNamespaceSchemaLocation="../xsd/2-publicaciones.xsd">
     <tituloPage>publicaciones</tituloPage>
-        <linkCabecera>
+    <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
         <item link="index.xml">Curriculum (Principal)</item>
-        </linkCabecera>
+    </linkCabecera>
     <menuDocumentos>
         <item link="2-1-libros.xml">Libros</item>
         <item link="2-2-articulos.xml">Artículos en Periódicos</item>
