@@ -200,12 +200,14 @@
                             <xsl:value-of select="//cuerpoPagina/especialesdades/especialidad/@idhref"/>
                         </xsl:attribute>
                     </a>
-                    <b><xsl:value-of select="//cuerpoPagina/especialesdades/especialidad/tipo/node()"/></b>
+                    <b>
+                        <xsl:value-of select="//cuerpoPagina/especialesdades/especialidad/tipo/node()"/>
+                    </b>
                     <br/>
                     <br/>
                     <br/>
                     <xsl:apply-templates select="//cuerpoPagina/especialesdades/especialidad/referencia">
-                            <xsl:value-of select="//cuerpoPagina/especialesdades/especialidad/referencia"/>  
+                        <xsl:value-of select="//cuerpoPagina/especialesdades/especialidad/referencia"/>  
                     </xsl:apply-templates>
                 </div>
             </body>
@@ -223,13 +225,13 @@
     
  
 
-
-</xsl:stylesheet>
-   <xsl:template match="//cuerpoPagina/especialesdades/especialidad/referencia/link">
+    <xsl:template match="//cuerpoPagina/especialesdades/especialidad/referencia/link">
         <a>
             <xsl:attribute name="href">
                 <xsl:value-of select="@url"/>
             </xsl:attribute>  
             <xsl:value-of select="node()"/>
         </a>        
-    </xsl:template>    
+    </xsl:template>   
+</xsl:stylesheet>
+    
