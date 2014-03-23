@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:include schemaLocation="TipoDatos.xsd"/>
+    <xs:element name="docencia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="tituloPage" type="xs:string"/>
+                <xs:element name="linkCabecera">
+                    <xs:complexType>
+                        <xs:group ref="itemLink"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="menu">
+                    <xs:complexType>
+                        <xs:group ref="itemLink"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="cuerpoPagina">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tutorias">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nobreEscuela" type="xs:string"/>
+                                        <xs:element name="oficina" type="xs:string"/>
+                                        <xs:element name="fecha" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="titulo" type="xs:string" use="required"/> 
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="trabajo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="item" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">
+                                                <xs:attribute name="year" type="xs:integer" use="required"/> 
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="titulo" type="xs:string" use="required"/> 
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="proyectos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="proyecto" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tituloCarrera" type="xs:string"/> 
+                                                    <xs:element name="presentacion">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="encabezado" type="xs:string" use="required"/> 
+                                                            <xs:attribute name="ubicacion" type="xs:string" use="required"/> 
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="objetivos">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="objetivo" type="xs:string" maxOccurs="unbounded" />
+                                                            </xs:sequence>
+                                                            <xs:attribute name="encabezado" type="xs:string" use="required"/> 
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="temario">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="item" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="descripcion" type="xs:string" />
+                                                                            <xs:element name="linkGuia" type="xs:string" minOccurs="0"/>
+                                                                            <xs:element name="linkEjercicios" type="xs:string" minOccurs="0"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="encabezado" type="xs:string" use="required"/> 
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="bibliografia">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="item" type="xs:string" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="referencia">
+                                                        <xs:complexType mixed="true">
+                                                            <xs:sequence>
+                                                                <xs:element name="link">
+                                                                    <xs:complexType mixed="true">
+                                                                        <xs:attribute name="url" use="required" type="xs:string"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="evaluacion">
+                                                        <xs:complexType mixed="true">
+                                                            <xs:attribute name="encabezado" type="xs:string" use="required"/> 
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="titulo" type="xs:string" use="required"/> 
+                                                <xs:attribute name="idhref" type="xs:string" use="optional"/> 
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="especialesdades">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="especialidad">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tipo" type="xs:string"/>
+                                                    <xs:element name="referencia">
+                                                        <xs:complexType mixed="true">
+                                                            <xs:sequence>
+                                                                <xs:element name="link">
+                                                                    <xs:complexType mixed="true">
+                                                                        <xs:attribute name="url" use="required" type="xs:string"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="titulo" type="xs:string" use="required"/> 
+                                                <xs:attribute name="idhref" type="xs:string" use="optional"/> 
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>                                
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
