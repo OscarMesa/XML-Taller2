@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-    Document   : index.xsl
-    Created on : March 10, 2014, 10:48 AM
-    Author     : oskar
-    Description:
-        Index del proyecto.
--->
-
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
-    <!-- TODO customize transformation rules 
-         syntax recommendation http://www.w3.org/TR/xslt 
-    -->
     <xsl:template match="/">
         <html>
             <head>
@@ -122,7 +110,9 @@
                                 <tr>
                                     <td>
                                         <xsl:value-of select="tituloRef"/>
-                                        <a href="{hiperLink/@link}" target="_blank"><xsl:value-of select="hiperLink/text()"/></a>
+                                        <a href="{hiperLink/@link}" target="_blank">
+                                            <xsl:value-of select="hiperLink/text()"/>
+                                        </a>
                                     </td>
                                 </tr>
                             </xsl:for-each>

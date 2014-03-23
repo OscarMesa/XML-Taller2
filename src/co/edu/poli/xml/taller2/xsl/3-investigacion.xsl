@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-    Document   : 3-investigacion.xsl
-    Created on : March 11, 2014, 9:40 AM
-    Author     : omesa
-    Description:
-        Purpose of transformation follows.
--->
-
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
-
-    <!-- TODO customize transformation rules 
-         syntax recommendation http://www.w3.org/TR/xslt 
-    -->
     <xsl:template match="/">
         <html>
             <head>
@@ -58,7 +45,11 @@
                     <SMALL>
                         <OL>
                             <xsl:for-each select="item">
-                                <LI><xsl:value-of select="text()"/></LI><br/><br/>
+                                <LI>
+                                    <xsl:value-of select="text()"/>
+                                </LI>
+                                <br/>
+                                <br/>
                             </xsl:for-each>
                         </OL>
                     </SMALL>

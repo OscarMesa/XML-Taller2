@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    Document   : 1-vitae.xsl
-    Created on : March 11, 2014, 9:05 AM
-    Author     : oskar
-    Description:
-        vitae
--->
-
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
 
