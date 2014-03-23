@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<articulos>
+<articulos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+           xs:noNamespaceSchemaLocation="../xsd/2-3-congresos.xsd">
     <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
         <item link="index.html">Curriculum (Principal)</item>
@@ -12,7 +13,8 @@
     </menu>
     <grupoArt titulo="Artículos en Periódicos ">
         <items año="2007">
-            <item>Luis de Marcos, Carmen Pagés, José Javier Martínez, J.A. Gutiérrez de Mesa, Juan M. de Blas and José Mª. Gutiérrez: (2007). <hiperLink link="http://www.cc.uah.es/jagm/docs/2007/INTED2007.pdf">Reflections on e-learning Lyfecycle and Learning Objects <hiperLink> <hiperLink link="http://www.webist.org/" >Lifecycle INTED 2007 (International Technology, Education and Development Conference) Abstract Book (WEBIST 2007)</hiperLink> International Association of Technology, Education and Development (IATED), Valencia (Spain), March 7-9, 2007. ISBN: 978-84-611-4516-4 (CD ISBN: 978-84-611-4517-1). pp. 423-430.</item>
+            <item>Luis de Marcos, Carmen Pagés, José Javier Martínez, J.A. Gutiérrez de Mesa, Juan M. de Blas and José Mª. Gutiérrez: (2007). <hiperLink link="http://www.cc.uah.es/jagm/docs/2007/INTED2007.pdf">Reflections on e-learning Lyfecycle and Learning Objects </hiperLink> 
+                        <hiperLink link="http://www.webist.org/" >Lifecycle INTED 2007 (International Technology, Education and Development Conference) Abstract Book (WEBIST 2007)</hiperLink> International Association of Technology, Education and Development (IATED), Valencia (Spain), March 7-9, 2007. ISBN: 978-84-611-4516-4 (CD ISBN: 978-84-611-4517-1). pp. 423-430.</item>
             <item>Luis de Marcos, Carmen Pagés, José Javier Martínez, J.A. Gutiérrez de Mesa, Juan M. de Blas and José Mª. Gutiérrez: (2007). <hiperLink link="http://www.cc.uah.es/jagm/docs/2007/WEBIST2007.pdf"> Digital Rights and e-payment in e-learning</hiperLink> 
                 <hiperLink link="http://www.webist.org/">Proceedings of the Third International Conference on Web Information Systems and Technologies (WEBIST 2007)</hiperLink> Insticc Press, Barcelona (Spain), March 3-6, 2007. ISBN: 978-972-8865-79-5. pp. 540-544. </item>
         </items>
