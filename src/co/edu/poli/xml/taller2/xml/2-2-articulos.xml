@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<articulos>
+<articulos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+           xs:noNamespaceSchemaLocation="../xsd/2-2-articulos.xsd">
     <linkCabecera>
         <item link="http://www.politecnicojic.edu.co/">Politecnico Colombiano Jaime Isaza Cadavid</item>
         <item link="index.html">Curriculum (Principal)</item>
